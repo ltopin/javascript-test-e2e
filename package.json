@@ -1,0 +1,26 @@
+{
+  "name": "javascript-test-e2e",
+  "version": "1.0.0",
+  "description": "javascript-test-e2e",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha -w --parallel *.test.js",
+    "test:cov": "npx nyc mocha  --parallel *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltopin/javascript-test-e2e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltopin/javascript-test-e2e/issues"
+  },
+  "homepage": "https://github.com/ltopin/javascript-test-e2e#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "supertest": "^6.0.1"
+  }
+}
