@@ -4,7 +4,6 @@ const DEFAULT_USER = {
   username: "ltopin",
   password: "bla123",
 };
-
 const routes = {
   "/contact:get": (req, res) => {
     res.write("contact us page");
