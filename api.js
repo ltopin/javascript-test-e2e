@@ -15,7 +15,7 @@ const routes = {
     for await (const data of req) {
       const user = JSON.parse(data);
       if (
-        user.username !== DEFAULT_USER.username ||
+          user.username !== DEFAULT_USER.username ||
         user.password !== DEFAULT_USER.password
       ) {
         res.writeHead(401);
